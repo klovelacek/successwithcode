@@ -1,0 +1,69 @@
+// Fonts sizes
+$h1-headline: 4.2em;
+$h2-headline: 3.25em;
+$h3-headline: 2.43em;
+$h4-headline: 1.5em;
+$h5-headline: 1.18em;
+$paragraph: .45em;
+
+//Colors
+$primary-orange: #e57d3c;
+$map-green: #288585;
+$hover-yellow: #fce149;
+$trade-tab-grey:#cccccc;
+$checklist-green:#3f5b57;
+
+h3 {
+  font-size: $h3-headline;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: $h4-headline;
+}
+
+h1, h2, h3, h4, h5, h6,
+.mapHead, .stateHead, .resourceHead {
+  text-transform: uppercase;
+  font-family: "ProximaNova Semibold", Helvetica, sans-serif;
+  color: $primary-orange;
+}
+
+// Links
+a:link, a:hover, a:active, a:visited {
+  text-decoration: none;
+}
+
+@mixin mapHead {
+  font-family: "ProximaNova Semibold", Helvetica, sans-serif;
+  font-size: $h3-headline;
+  color: $primary-orange;
+  text-transform: uppercase;
+  margin-bottom: .3em;
+}
+
+
+// Trade tab button
+@mixin tradeBtn-active {
+  @include tradeBtn-static;
+
+  &:hover {
+    background-color: $map-green;
+    color: $hover-yellow;
+  }
+}
+
+@mixin tradeBtn-static {
+  width: 189px;
+  height: 23px;
+  background-color: $trade-tab-grey;
+  font-size: 18px;
+  color: $checklist-green;
+  text-transform: uppercase;
+  padding: 8px 11px;
+
+    &:hover {
+      cursor: pointer;
+  }
+}
