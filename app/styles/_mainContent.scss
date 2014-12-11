@@ -28,6 +28,7 @@
 .navLinks {
   text-align: center;
 }
+
 .navLinks ul li a:hover {
   color: $checklist-green;
 }
@@ -130,6 +131,62 @@ article {
   margin-top: 7px;
 }
 
+// === Mimeo Link ===============
+
 .mimeoIcon {
   width: 17em;
+}
+
+//==== Footer ==================
+
+.footerNav ul {
+  list-style-type: none;
+  @include outer-container;
+  margin-top: 3.5em;
+
+    li {
+      display: inline;
+      margin-right: 4.90em;
+      font-size: $h5-headline;
+      font-family: "ProximaNova Regular", Helvetica, sans-serif;
+      text-transform: uppercase;
+    }
+}
+
+footer hr {
+  width: 96em;
+  border-color: $primary-orange;
+}
+
+.footerNav ul li a:hover {
+  color: $primary-orange;
+}
+
+.footerNav a:visited {
+  color: black;
+}
+
+div.logos {
+  @include span-columns(9);
+  @include shift(2)
+}
+
+.logos ul {
+  list-style-type: none;
+  @include omega(4n);
+    li {
+      display: inline;
+      margin-right: 9.5%;
+    }
+}
+
+div.signoff ul {
+  @include span-columns(7);
+  @include shift(2);
+  list-style-type: none;
+  margin-top: 50px;
+    li {
+      display: inline;
+      margin-right: 1em;
+    }
 }
