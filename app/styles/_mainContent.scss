@@ -18,7 +18,7 @@
   list-style-type: none;
     li {
       display: inline;
-      margin-right: 4.90em;
+      margin-right: 6.2em;
       font-size: $h5-headline;
       font-family: "ProximaNova Regular", Helvetica, sans-serif;
       text-transform: uppercase;
@@ -143,6 +143,7 @@ article {
   list-style-type: none;
   @include outer-container;
   margin-top: 3.5em;
+  text-align: center;
 
     li {
       display: inline;
@@ -167,8 +168,10 @@ footer hr {
 }
 
 div.logos {
-  @include span-columns(9);
-  @include shift(2)
+  @include span-columns(8);
+  @include shift(2);
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .logos ul {
@@ -176,17 +179,29 @@ div.logos {
   @include omega(4n);
     li {
       display: inline;
-      margin-right: 9.5%;
+      margin-right: 10.75%;
     }
 }
 
-div.signoff ul {
-  @include span-columns(7);
-  @include shift(2);
-  list-style-type: none;
-  margin-top: 50px;
-    li {
-      display: inline;
-      margin-right: 1em;
+.social {
+    @include outer-container;
+    max-width: 91em;
+
+    ul {
+      list-style-type: none;
+      padding-top: 20px;
+        li {
+          display: inline;
+          margin-right: 1em;
+        }
     }
+}
+
+.socialLinks {
+  float: left;
+}
+
+.copyright {
+  text-align: right;
+  padding-top: 205px;
 }
