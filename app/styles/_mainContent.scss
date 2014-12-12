@@ -3,7 +3,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: $primary-orange;
+  background-color: $orange;
   overflow: hidden;
 }
 
@@ -137,6 +137,10 @@ article {
   width: 17em;
 }
 
+// ======== Code Books ============
+
+
+
 //==== Footer ==================
 
 .footerNav ul {
@@ -156,11 +160,11 @@ article {
 
 footer hr {
   width: 96em;
-  border-color: $primary-orange;
+  border-color: $orange;
 }
 
 .footerNav ul li a:hover {
-  color: $primary-orange;
+  color: $orange;
 }
 
 .footerNav a:visited {
@@ -204,4 +208,16 @@ div.logos {
 .copyright {
   text-align: right;
   padding-top: 205px;
+}
+
+.copyright {
+  a:visited {
+    color: black;
+  }
+}
+
+.copyright {
+  a:hover {
+      color: $orange;
+  }
 }
