@@ -6,7 +6,7 @@ $h4-headline: 1.5em;
 $h5-headline: 1.18em;
 
 //Colors
-$primary-orange: #e57d3c;
+$orange: #e57d3c;
 $map-green: #288585;
 $hover-yellow: #fce149;
 $trade-tab-grey:#cccccc;
@@ -25,7 +25,7 @@ h4 {
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-family: "ProximaNova Semibold", Helvetica, sans-serif;
-  color: $primary-orange;
+  color: $orange;
 }
 
 p {
@@ -37,7 +37,7 @@ p a:visited {
 }
 
 p a:hover {
-  color: $primary-orange;
+  color: $orange;
 }
 
 
@@ -50,7 +50,7 @@ a:link, a:hover, a:active, a:visited {
 @mixin mapHead {
   font-family: "ProximaNova Semibold", Helvetica, sans-serif;
   font-size: $h3-headline;
-  color: $primary-orange;
+  color: $orange;
   text-transform: uppercase;
   margin-bottom: .3em;
 }
