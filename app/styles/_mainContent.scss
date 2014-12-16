@@ -71,11 +71,44 @@ section {
   @include outer-container;
   text-align: center;
   margin-top: 4em;
+    h3 {
+      margin-bottom: 1.75em;
+    }
 }
 
 .map img {
-  width: 55em;
+  width: 65em;
   margin-top: 3em;
+}
+
+//==== Book Section ====================
+
+section.books {
+  @include outer-container;
+  text-align: center;
+  margin-top: 4em;
+  max-width: 80em;
+}
+
+.book1 {
+  @include span-columns(5);
+  width: 39em;
+  img {
+    width: 40em;
+  }
+}
+
+.book2 {
+  @include span-columns(5);
+  width: 39em;
+  img {
+    width: 37em;
+  }
+}
+
+.book1, .book2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 //==== Resources Section ==============
@@ -167,7 +200,7 @@ footer hr {
   color: $orange;
 }
 
-.footerNav a:visited {
+.footerNav ul li a:visited {
   color: black;
 }
 
