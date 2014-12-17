@@ -1,0 +1,68 @@
+  // ===== Northeast ===========
+
+.southeastMapNE {
+  @include span-columns(6);
+    img {
+      width: 40em;
+  }
+}
+
+.regionLogoNE {
+  @include span-columns(4);
+    img {
+      width: 11em;
+  }
+}
+
+// ======Maine ============
+
+.note {
+    font-family: "ProximaNova RegIt", Helvetica, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    display: inline;
+    @include span-columns(10);
+    @include shift(1);
+}
+
+
+// ========= Southeast =============
+
+.southeastMapSE {
+  @include span-columns(6);
+  @include shift(1);
+}
+
+.regionLogoSE {
+  @include span-columns(4);
+  img {
+    width: 23.25em;
+  }
+}
+
+
+// ======= South Central ===========
+
+.southeastMapSE {
+  @include span-columns(7);
+    img {
+      width: 34em;
+    }
+}
+
+.regionLogoSE {
+  @include span-columns(2);
+  @include shift(1);
+  img {
+    width: 16em;
+  }
+}
+
+
+.statetitle h3 {
+  margin-bottom: .5em;
+  }
+
+.hideresources {
+  visibility: hidden;
+}
