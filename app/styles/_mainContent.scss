@@ -72,15 +72,25 @@ section {
   text-align: center;
   margin-top: 4em;
     h3 {
-      margin-bottom: 1.75em;
+      margin-bottom: -0.25em;
     }
 }
 
-.map img {
+.nationalMap img {
   width: 65em;
   margin-top: 3em;
 }
 
+map {
+  width: 65em;
+}
+
+.MEEA {
+  area:hover {
+    background-image: url(images/map_meea_hover.png);
+    width: 65em;
+  }
+}
 //==== Book Section ====================
 
 section.books {
