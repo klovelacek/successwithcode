@@ -1,15 +1,13 @@
 //== Main Header =====================
 .wrapper {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   background-color: $orange;
   overflow: hidden;
 }
 
 .mainNav {
-  max-width: 96em;
-  margin: 0 auto;
+  @include outer-container;
   text-align: center;
   padding-top: 20px;
 }
@@ -18,27 +16,32 @@
   list-style-type: none;
     li {
       display: inline;
-      margin-right: 6.2em;
+      margin-right: 10%;
       font-size: $h5-headline;
       font-family: "ProximaNova Regular", Helvetica, sans-serif;
       text-transform: uppercase;
     }
 }
 
-.navLinks {
-  text-align: center;
+ul.navLinks {
+  padding: 0;
 }
 
-.navLinks ul li a:hover {
-  color: $checklist-green;
+.navLinks {
+  text-align: center;
 }
 
 .mainNav a:visited {
   color: white;
 }
 
-ul.navLinks {
-  padding: 0;
+.navLinks ul li a:hover {
+  color: $checklist-green;
+}
+
+
+.navLinks ul li a:active {
+  color: $checklist-green;
 }
 
 .mainNav hr {
@@ -57,7 +60,7 @@ title {
 
 .subtitle {
   font-family: "ProximaNova LightIt", Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   color: white;
   letter-spacing: 2px;
     p {
@@ -65,59 +68,93 @@ title {
     }
 }
 
+//======= Social Icons =================
+
+.social {
+  @include outer-container;
+  max-width: 62em;
+
+  ul {
+    list-style-type: none;
+    li {
+      display: inline;
+      margin-right: .6em;
+    }
+  }
+}
+
+.socialLinks {
+  float: right;
+}
+
+
 //==== Map Section ====================
 
 section {
   @include outer-container;
   text-align: center;
-  margin-top: 4em;
+  margin-top: 1em;
     h3 {
-      margin-bottom: -0.25em;
+      margin-bottom: 1.75em;
     }
 }
 
-.nationalMap img {
-  width: 65em;
-  margin-top: 3em;
+.nationalMap {
+  width: 100%;
+  height: 579px;
+  //background-image: url("/interactive/newMapUS2.svg");
+  //padding-left: 4.5%;
+  margin-top: -12px;
 }
+ .nationalMap object {
+   width: 100%;
+ }
 
-map {
-  width: 65em;
-}
 
-.MEEA {
-  area:hover {
-    background-image: url(images/map_meea_hover.png);
-    width: 65em;
-  }
-}
 //==== Book Section ====================
+
+.nationalRes {
+  text-align: center;
+  margin-top: 4em;
+    h3 {
+      margin-bottom: .75em;
+    }
+}
 
 section.books {
   @include outer-container;
   text-align: center;
   margin-top: 4em;
-  max-width: 80em;
+  max-width: 82em;
+  height: 39em;
 }
 
-.book1 {
+.book1:hover img, .book2:hover img {
+  width: 34em;
+  transition: width .25s ease-in-out;
+}
+
+
+.book1, .book1static, {
   @include span-columns(5);
+  text-align: right;
   width: 39em;
   img {
-    width: 40em;
+    width: 32em;
   }
 }
 
-.book2 {
+.book2, .book2static {
   @include span-columns(5);
+  text-align: left;
   width: 39em;
   img {
-    width: 37em;
+    width: 30.2em;
   }
 }
 
-.book1, .book2 {
-  margin-top: 2em;
+.book1, .book2, .book1static, .book2static {
+  margin-top: 1em;
   margin-bottom: 2em;
 }
 
@@ -125,31 +162,40 @@ section.books {
 
 
 .resourceLinks img {
-  width: 7.25em;
+  width: 6.2em;
+}
+
+.resourcesHide {
+  visibility: hidden;
 }
 
 .resourceLinks p {
   font-family: "ProximaNova Semibold", Helvetica, sans-serif;
-  font-size: 1.75em;
+  font-size: 1.5em;
   text-transform: uppercase;
   margin-top: 5px;
 }
 
 .resourceLinks ul {
   padding: 0;
+  width: 18em;
 }
 
 .resourceLinks ul li {
   font-family: "ProximaNova Regular", Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-transform: uppercase;
   text-align: center;
   list-style-type: none;
   margin-bottom: 15px;
   background-color: #ccc;
-  width: 10.5em;
-  height: 1.75em;
-  padding-top: .27em;
+  width: 12.25em;
+  height: 1.95em;
+  padding-top: .39em;
+}
+
+.resourceLinks ul li a:link {
+  color: black;
 }
 
 .resourceLinks ul li a:visited {
@@ -158,9 +204,9 @@ section.books {
 
 .resourceLinks ul li:hover {
   background-color: $map-green;
-    a {
-      color: $hover-yellow;
-    }
+  a {
+    color: $hover-yellow;
+  }
 }
 
 article {
@@ -168,16 +214,26 @@ article {
   @include shift(2);
 }
 
+article {
+  @include span-columns(3 of 12);
+  @include shift(2);
+}
+
+.arkansas {
+  @include span-columns(3 of 12);
+  @include shift(1);
+  margin-left: 7%;
+}
+
+
+.ieccResource {
+  @include outer-container;
+}
+
 .adobeLink {
   @include span-columns(8);
   @include shift(2);
   margin-top: 7px;
-}
-
-// === Mimeo Link ===============
-
-.mimeoIcon {
-  width: 17em;
 }
 
 // ======== Code Books ============
@@ -194,15 +250,15 @@ article {
 
     li {
       display: inline;
-      margin-right: 4.90em;
+      margin-right: 5.80em;
       font-size: $h5-headline;
       font-family: "ProximaNova Regular", Helvetica, sans-serif;
       text-transform: uppercase;
-    }
+  }
 }
 
 footer hr {
-  width: 96em;
+  width: 80%;
   border-color: $orange;
 }
 
@@ -211,7 +267,7 @@ footer hr {
 }
 
 .footerNav ul li a:visited {
-  color: black;
+  color: #000;
 }
 
 div.logos {
@@ -226,41 +282,27 @@ div.logos {
   @include omega(4n);
     li {
       display: inline;
-      margin-right: 10.75%;
-    }
-}
-
-.social {
-    @include outer-container;
-    max-width: 91em;
-
-    ul {
-      list-style-type: none;
-      padding-top: 20px;
-        li {
-          display: inline;
-          margin-right: 1em;
-        }
-    }
-}
-
-.socialLinks {
-  float: left;
+      margin-right: 7.5%;
+  }
 }
 
 .copyright {
-  text-align: right;
-  padding-top: 205px;
+  @include outer-container;
+  font-family: "ProximaNova Regular", Helvetica, sans-serif;
+  font-size: .8em;
+  text-align: center;
+  padding-top: 148px;
+  line-height: 18px;
+  width: 60%;
+  height: 40px;
+  margin-bottom: 40px;
+    a:hover {
+        color: $orange;
+  }
 }
 
 .copyright {
   a:visited {
     color: black;
-  }
-}
-
-.copyright {
-  a:hover {
-      color: $orange;
   }
 }
