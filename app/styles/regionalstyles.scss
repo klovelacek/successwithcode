@@ -76,3 +76,15 @@
 .hideresources {
   visibility: hidden;
 }
+
+// ================  Midwest MEEA  =================
+
+.regionLogoMW {
+  @include span-columns(2);
+  @include shift(2);
+  margin-right: 72px;
+  padding-left: 1.25em;
+  img {
+    width: 11.6em;
+  }
+}
