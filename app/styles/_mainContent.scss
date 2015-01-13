@@ -102,8 +102,6 @@ section {
 .nationalMap {
   width: 100%;
   height: 579px;
-  //background-image: url("/interactive/newMapUS2.svg");
-  //padding-left: 4.5%;
   margin-top: -12px;
 }
  .nationalMap object {
@@ -116,6 +114,7 @@ section {
 .nationalRes {
   text-align: center;
   margin-top: 4em;
+
     h3 {
       margin-bottom: .75em;
     }
@@ -129,8 +128,13 @@ section.books {
   height: 39em;
 }
 
-.book1:hover img, .book2:hover img {
-  width: 34em;
+.book1:hover img {
+  width: 33em;
+  transition: width .25s ease-in-out;
+}
+
+.book2:hover img {
+  width: 32em;
   transition: width .25s ease-in-out;
 }
 
@@ -138,7 +142,8 @@ section.books {
 .book1, .book1static, {
   @include span-columns(5);
   text-align: right;
-  width: 39em;
+  width: 47.5%;
+
   img {
     width: 32em;
   }
@@ -147,15 +152,18 @@ section.books {
 .book2, .book2static {
   @include span-columns(5);
   text-align: left;
-  width: 39em;
+  width: 45%;
+
   img {
     width: 30.2em;
   }
 }
 
+
 .book1, .book2, .book1static, .book2static {
-  margin-top: 1em;
+  margin-top: .5em;
   margin-bottom: 2em;
+  margin-left: 22px;
 }
 
 //==== Resources Section ==============
@@ -250,7 +258,7 @@ article {
 
     li {
       display: inline;
-      margin-right: 5.80em;
+      margin-right: 7%;
       font-size: $h5-headline;
       font-family: "ProximaNova Regular", Helvetica, sans-serif;
       text-transform: uppercase;
@@ -282,7 +290,7 @@ div.logos {
   @include omega(4n);
     li {
       display: inline;
-      margin-right: 7.5%;
+      margin-right: 6%;
   }
 }
 

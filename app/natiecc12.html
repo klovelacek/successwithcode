@@ -8,11 +8,19 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="styles/vendor.css">
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
 
+  <!-- build:css styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
 
-  <script src="scripts/vendor/modernizr.js"></script>
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="../bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
 </head>
 <body>
   <header class="wrapper" role="header">
@@ -41,17 +49,17 @@
 
     <h3 class="builder">Select a Year to access National Resources</h3>
 
-
+    <a href="natiecc09.html">
       <div class="book1static">
         <img src="images/2009CodeOfficials.png" alt="2009 Builders Code book cover">
       </div>
+    </a>
 
 
-    <a href="natiecc12.html">
       <div class="book2">
         <img src="images/2012CodeOfficials.png" alt="2012 Officals Code book cover">
       </div>
-    </a>
+
 
   </section>
 
@@ -128,8 +136,15 @@
         </div>
       </footer>
 
-      <script src="scripts/vendor.js"></script>
+      <!-- build:js scripts/vendor.js -->
+      <!-- bower:js -->
+      <script src="../bower_components/jquery/dist/jquery.js"></script>
+      <script src="../bower_components/underscore/underscore.js"></script>
+      <!-- endbower -->
+      <!-- endbuild -->
 
+      <!-- build:js scripts/main.js -->
       <script src="scripts/main.js"></script>
+      <!-- endbuild -->
     </body>
     </html>
