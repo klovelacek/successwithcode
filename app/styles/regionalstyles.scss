@@ -81,10 +81,18 @@
 
 .regionLogoMW {
   @include span-columns(2);
-  @include shift(2);
+  @include shift(1);
   margin-right: 72px;
-  padding-left: 1.25em;
+
   img {
-    width: 11.6em;
+    width: 14.6em;
+  }
+}
+
+.midwestMap {
+  @include span-columns(5);
+  @include shift(1);
+  img {
+    width: 38.5em;
   }
 }
