@@ -2,30 +2,30 @@
 
 @font-face {
   font-family: 'ProximaNova Regular';
-  src: url('fonts/Proxima+Nova+Reg.otf') format('opentype-font');
-  src: url('fonts/proximanovareg-webfont.woff') format('woff'),
-       url('fonts/proximanovareg-webfont.woff2') format('woff2'),
-       url('fonts/proximanovareg-webfont.ttf') format('ttf'),
-       url('fonts/proximanovareg-webfont-webfont.eot') format('eot');
+  src: url('../fonts/Proxima+Nova+Reg.otf') format('opentype-font');
+  src: url('../fonts/proximanovareg-webfont.woff') format('woff'),
+       url('../fonts/proximanovareg-webfont.woff2') format('woff2'),
+       url('../fonts/proximanovareg-webfont.ttf') format('ttf'),
+       url('../fonts/proximanovareg-webfont-webfont.eot') format('eot');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'ProximaNova Semibold';
-  src: url('fonts/ProximaNova-Semibold.otf');
-  src: url('fonts/proximanova-semibold-webfont-webfont.woff') format('woff'),
-       url('fonts/proximanova-semibold-webfont-webfont.woff2') format('woff2'),
-       url('fonts/proximanova-semibold-webfont-webfont.ttf') format('ttf'),
-       url('fonts/proximanova-semibold-webfont-webfont.eot') format('eot');
+  src: url('../fonts/ProximaNova-Semibold.otf');
+  src: url('../fonts/proximanova-semibold-webfont-webfont.woff') format('woff'),
+       url('../fonts/proximanova-semibold-webfont-webfont.woff2') format('woff2'),
+       url('../fonts/proximanova-semibold-webfont-webfont.ttf') format('ttf'),
+       url('../fonts/proximanova-semibold-webfont-webfont.eot') format('eot');
        font-weight: normal;
 }
 
 @font-face {
   font-family: 'ProximaNova LightIt';
-  src: url('fonts/Proxima+Nova+Light+It.otf');
-  src: url('fonts/proximanovalightit-webfont-webfont.woff') format('woff'),
-      url('fonts/proximanovalightit-webfont-webfont.woff2') format('woff2'),
-      url('fonts/proximanovalightit-webfont-webfont.ttf') format('ttf'),
-      url('fonts/proximanovalightit-webfont-webfont.eot') format('eot');
+  src: url('../fonts/Proxima+Nova+Light+It.otf');
+  src: url('../fonts/proximanovalightit-webfont-webfont.woff') format('woff'),
+      url('../fonts/proximanovalightit-webfont-webfont.woff2') format('woff2'),
+      url('../fonts/proximanovalightit-webfont-webfont.ttf') format('ttf'),
+      url('../fonts/proximanovalightit-webfont-webfont.eot') format('eot');
       font-weight: normal;
 }

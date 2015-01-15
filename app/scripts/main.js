@@ -1,4 +1,4 @@
-$(document).ready(function() {
+// $(document).ready(function() {
 
 // $(function() {
 //
@@ -21,13 +21,34 @@ $(document).ready(function() {
 
   $(function(){
 
-    $("#stage").load('nationalMap.svg', function(response){
-      $(this).addClass("svgLoaded");
+    $("#nationalMap").load('images/nationalMap.svg', function(response){
+      $(this).addClass("nationalMap");
 
       if(!response){
-        //Error loading SVG!
+          $(this).html('Error loading SVG');
       }
     });
   });
 
-});
+  $(function(){
+
+  $("#stageNE").load('images/map_neep.svg', function(response){
+       $(this).addClass("northeastMapNE");
+
+      if(!response){
+        $(this).html('Error loading SVG');
+      }
+    });
+  });
+
+  $(function(){
+
+    $("#stageSE").load('images/map_seea.svg', function(response){
+      $(this).addClass("southeastMapSE");
+
+      if(!response){
+        $(this).html('Error loading SVG');
+      }
+    });
+  });
+// });

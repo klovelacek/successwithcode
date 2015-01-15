@@ -1,11 +1,18 @@
-  // ===== Northeast ===========
+// ======= National Map =========
+
+.nationalMap {
+  width: 80%;
+}
+
+
+
+
+
+
+// ===== Northeast ===========
 
 .northeastMapNE {
   @include span-columns(6);
-
-    img {
-      width: 30em;
-  }
 }
 
 .regionLogoNE {
@@ -37,7 +44,10 @@
 
 .southeastMapSE {
   @include span-columns(5);
+  width: 53%;
 }
+
+
 
 .regionLogoSE {
   @include span-columns(3);
