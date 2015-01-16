@@ -109,10 +109,10 @@ section {
   height: 579px;
   margin-top: -12px;
 }
- .nationalMap object {
-   width: 100%;
- }
 
+svg {
+  transition-duration: 6s;
+}
 
 //==== Book Section ====================
 
@@ -179,7 +179,7 @@ section.books {
 }
 
 .resourcesHide {
-  visibility: hidden;
+  display: none;
 }
 
 .resourceLinks p {

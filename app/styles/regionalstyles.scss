@@ -2,10 +2,7 @@
 
 .northeastMapNE {
   @include span-columns(6);
-
-    img {
-      width: 30em;
-  }
+  width: 53%;
 }
 
 .regionLogoNE {
@@ -37,11 +34,12 @@
 
 .southeastMapSE {
   @include span-columns(5);
+  width: 64%;
 }
 
 .regionLogoSE {
   @include span-columns(3);
-  @include shift(1);
+  margin-left: 3em;
   img {
     width: 14.6em;
   }
@@ -52,9 +50,7 @@
 
 .southcentralMap {
   @include span-columns(5);
-    img {
-      width: 20em;
-  }
+  width: 46.5%;
 }
 
 .regionLogoSC {
@@ -74,7 +70,8 @@
   }
 
 .hideresources {
-  visibility: hidden;
+  display: none;
+  transition-duration: 6s;
 }
 
 // ================  Midwest MEEA  =================
@@ -91,8 +88,6 @@
 
 .midwestMap {
   @include span-columns(5);
-  @include shift(1);
-  img {
-    width: 38.5em;
-  }
+  margin-left: 1.8em;
+  width: 67%;
 }
