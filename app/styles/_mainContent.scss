@@ -21,14 +21,15 @@ body {
   list-style-type: none;
     li {
       display: inline;
-      margin-right: 7%;
-      font-size: $h5-headline;
-      font-family: "ProximaNova Regular", Helvetica, sans-serif;
+      margin-right: 2%;
+      font-size: $h6-headline;
+      font-family: "ProximaNova Semibold", Helvetica, sans-serif;
       text-transform: uppercase;
+      letter-spacing: 1px;
     }
 }
 
-ul.navLinks {
+.navLinks ul {
   padding: 0;
 }
 
@@ -36,17 +37,16 @@ ul.navLinks {
   text-align: center;
 }
 
-.mainNav a:visited {
-  color: white;
+.navLinks ul li a:active {
+  color: $checklist-green;
 }
 
 .navLinks ul li a:hover {
   color: $checklist-green;
 }
 
-
-.navLinks ul li a:active {
-  color: $checklist-green;
+.mainNav ul li a:visited {
+  color: white;
 }
 
 .mainNav hr {
@@ -263,10 +263,11 @@ article {
 
     li {
       display: inline;
-      margin-right: 7%;
-      font-size: $h5-headline;
-      font-family: "ProximaNova Regular", Helvetica, sans-serif;
+      margin-right: 2%;
+      font-size: $h6-headline;
+      font-family: "ProximaNova Semibold", Helvetica, sans-serif;
       text-transform: uppercase;
+      letter-spacing: 1px;
   }
 }
 
@@ -280,7 +281,7 @@ footer hr {
 }
 
 .footerNav ul li a:visited {
-  color: #000;
+  color: black;
 }
 
 div.logos {
@@ -319,3 +320,19 @@ div.logos {
     color: black;
   }
 }
+
+/* 
+
+div.hidelogo1, div.hidelogo2, div.hidelogo3,
+div.hidelogo4, div.hidelogo5, div.hidelogo6, {
+  position: relative;
+  display: inline;
+
+  position: absolute;
+  //visibility: hidden;
+}
+
+div.hidelogo1, {
+
+  left: 20%;
+} */

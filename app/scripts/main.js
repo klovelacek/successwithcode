@@ -1,10 +1,29 @@
+// $(document).ready(function)(){
+//
+//   $('.bubblelogo').mouseover(function(){
+//
+//   div= $('bubblelogo');
+//
+//   div.stop().animate({visibility: visible}, 150);
+//
+//   }).mouseout(function(){
+//
+//
+//   div.stop().animate({visibility: hidden}), 150);
+//
+//   });
+//
+//   });
+
+
+
 // Place SVG maps in HTML pages
 
 // ================ NATIONAL ===================
 
 $(function(){
 
-  $("#nationalMap").load('images/nationalMap.svg', function(response){
+  $("#stageNAT").load('images/map_national.svg', function(response){
     $(this).addClass("nationalMap");
 
     if(!response){
@@ -58,6 +77,61 @@ $(function(){
 
   $("#stageSC").load('images/map_speer.svg', function(response){
     $(this).addClass("southcentralMap");
+
+    if(!response){
+      $(this).html('Error loading SVG');
+    }
+  });
+});
+
+// ======== SWEEP ========================
+
+$(function(){
+
+  $("#stageSW").load('images/map_sweep.svg', function(response){
+    $(this).addClass("southcentralMap");
+
+    if(!response){
+      $(this).html('Error loading SVG');
+    }
+  });
+});
+
+
+// ======== NEEA ========================
+
+$(function(){
+
+  $("#stageNW").load('images/map_neea.svg', function(response){
+    $(this).addClass("northwestMap");
+
+    if(!response){
+      $(this).html('Error loading SVG');
+    }
+  });
+});
+
+
+// ======== WEST VIRGINIA ========================
+
+$(function(){
+
+  $("#stageWV").load('images/map_WV.svg', function(response){
+    $(this).addClass("westvirginiaMap");
+
+    if(!response){
+      $(this).html('Error loading SVG');
+    }
+  });
+});
+
+
+// ======== CALIFORNIA ========================
+
+$(function(){
+
+  $("#stageCA").load('images/map_CA.svg', function(response){
+    $(this).addClass("californiaMap");
 
     if(!response){
       $(this).html('Error loading SVG');

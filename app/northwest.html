@@ -4,17 +4,26 @@
   <meta charset="utf-8">
   <meta name="description" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-  <title>National Builders Code</title>
+  <title>Northwest energy Efficiency Alliance</title>
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="styles/vendor.css">
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
 
+  <!-- build:css styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
 
-  <script src="scripts/vendor/modernizr.js"></script>
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="../bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
 </head>
 <body>
+
   <header class="wrapper" role="header">
     <nav class="mainNav" role="navigation">
       <div class="navLinks" role="link">
@@ -50,32 +59,27 @@
     </ul>
   </div>
 
-  <!-- Code Book Display Section -->
-  <section class="books">
-    <h3 class="builder">Select a Year to access national Resources</h3>
-
-
-      <div class="book1static">
-        <img src="/images/2009CodeBuildersBook.png" alt="2009 Builders Code book cover">
-      </div>
-
-
-    <a href="natBuilders12.html">
-      <div class="book2">
-        <img src="/images/2012CodeBuildersBook.png" alt="2012 Officals Code book cover">
-      </div>
-    </a>
-
-  </section>
+  <!-- Map Section -->
 
   <section>
-    <h3>2009 IECC for builders and trades</h3>
-    <p><a href="natBuilders.html">Click on each trade to download a PDF.</a></p>
+    <h3>Northwest Energy Efficiency Alliance</h3>
+
+    <div class="regionLogoNW">
+      <a href="http://neea.org/" target="_blank"><img src="images/neea-logo.png" alt="Northwest Energy Efficiency Alliance logo"></a>
+    </div>
+
+    <div id="stageNW" class="northwestMap"></div>
   </section>
 
-  <!-- National Builders Resources -->
 
-  <section>
+  <!-- State Builders Resources -->
+
+  <section class="hideresources">
+    <section class="statetitle">
+      <h3>National Resources</h3>
+      <p><a href="natBuilder.html">Click on each trade below to download a PDF</a></p>
+    </section>
+
     <article>
       <div class="resourceLinks">
         <img src="/images/techtip_icon2.png" alt="Builders Techtip icon">
@@ -107,7 +111,6 @@
         </ul>
       </div>
     </article>
-
     <div class="adobeLink">
       <p><a href="http://get.adobe.com/reader/" target="_blank">Adobe Reader is required to use the PDF resources on this site. Download here.</a></p>
     </div>
@@ -123,17 +126,20 @@
 
   </section>
 
-
   <footer>
 
     <nav class="footerNav" role="navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="southcentral.html">Midwest</a></li>
+        <li><a href="southcentral.html">South Central</a></li>
         <li><a href="northeast.html">Northeast</a></li>
         <li><a href="southeast.html">Southeast</a></li>
-        <li><a href="southcentral.html">Southcentral</a></li>
+        <li><a href="midwest.html">Midwest</a></li>
         <li><a href="natBuilders.html">National</a></li>
+        <li><a href="southwest.html">southwest</a></li>
+        <li><a href="northwest.html">northwest</a></li>
+        <li><a href="california.html">california</a></li>
+        <li><a href="west-virginia.html">West Virginia</a></li>
       </ul>
     </nav>
     <hr>
@@ -153,8 +159,15 @@
 
       </footer>
 
-      <script src="scripts/vendor.js"></script>
+      <!-- build:js scripts/vendor.js -->
+      <!-- bower:js -->
+      <script src="../bower_components/jquery/dist/jquery.js"></script>
+      <script src="../bower_components/underscore/underscore.js"></script>
+      <!-- endbower -->
+      <!-- endbuild -->
 
+      <!-- build:js scripts/main.js -->
       <script src="scripts/main.js"></script>
+      <!-- endbuild -->
     </body>
     </html>

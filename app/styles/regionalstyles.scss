@@ -2,7 +2,7 @@
 
 .northeastMapNE {
   @include span-columns(6);
-  width: 53%;
+  width: 48%;
 }
 
 .regionLogoNE {
@@ -34,7 +34,7 @@
 
 .southeastMapSE {
   @include span-columns(5);
-  width: 64%;
+  width: 50%;
 }
 
 .regionLogoSE {
@@ -50,7 +50,7 @@
 
 .southcentralMap {
   @include span-columns(5);
-  width: 46.5%;
+  width: 34%;
 }
 
 .regionLogoSC {
@@ -62,7 +62,6 @@
     width: 10.6em;
   }
 }
-
 
 .statetitle h3 {
   margin-bottom: .5em;
@@ -89,5 +88,62 @@
 .midwestMap {
   @include span-columns(5);
   margin-left: 1.8em;
-  width: 67%;
+  width: 56%;
+}
+
+
+// ===== Southwest ===========
+
+.southwestMap {
+  @include span-columns(6);
+  width: 48%;
+}
+
+.regionLogoSW {
+  @include span-columns(3);
+  @include shift(1);
+  text-align: center;
+  margin-right: 1em;
+
+  img {
+    width: 7.5em;
+  }
+}
+
+// ===== Northwest ===========
+
+.northwestMap {
+  @include span-columns(6);
+  width: 48%;
+}
+
+.regionLogoNW {
+  @include span-columns(3);
+  @include shift(1);
+  text-align: right;
+  margin-right: 3em;
+
+  img {
+    width: 9.5em;
+  }
+}
+
+
+// ===== West Virginia ===========
+
+.westvirginiaMap {
+  @include outer-container;
+  width: 26%;
+}
+
+.ca-wv-title {
+  margin-bottom: .75em;
+}
+
+
+// ===== California ===========
+
+.californiaMap {
+  @include outer-container;
+  width: 26%;
 }
