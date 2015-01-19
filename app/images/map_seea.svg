@@ -2,7 +2,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
 	 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="204.862 1.161 789.26 798.693">
 
-<a xlink:href="georgia.html">
+<a class="georgia" xlink:href="">
 	<path id="GA" onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');"
 	 fill="#288585" stroke="#FFFFFF" stroke-width="0.9" stroke-miterlimit="10" stroke-dasharray="3.0623,6.1246"
 	   d="M600.218,451.814c0.436,1.451,0.726,3.338,2.177,4.209c1.742,1.161,1.451,1.887,1.597,3.919c0,1.887,0,3.773,0.146,5.66
@@ -38,7 +38,7 @@
 		s0.87,3.338,1.161,4.935L600.218,451.814z"/>
 </a>
 
-<a xlink:href="arkansas.html">
+<a class= "arkansas" xlink:href="">
 		<path onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');" fill="#288585" d="
 		M211.103,310.305c2.032-0.29,1.597,2.903,3.338,3.773c2.322,1.017,2.902,0,5.225-0.29c0.436,0,2.032,1.887,2.322,1.161
 		c0.145-0.436,1.887-1.597,2.322-0.871c0.581,1.017,4.354,1.597,5.515,2.178v28.737l0,0h116.255l0,0l1.016-0.436
@@ -361,7 +361,7 @@
 		 M208.781,155.878v1.307h4.5v-1.307H208.781L208.781,155.878z"/>
 </a>
 
-<a xlink:href="tennessee.html">
+<a class= "tennessee" xlink:href="">
 	<path id="TN" onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');" fill="#288585" stroke="#FFFFFF" stroke-width="0.9" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3.0623,6.1246" d="
 		M418.215,157.185c-0.146,0.145-0.146,0.29-0.146,0.29c-1.306,1.306-2.757-2.032-3.918-2.032c-0.727,0,1.451,7.692,1.016,8.563
 		c-0.871,1.597-3.193,2.322-4.063,3.919c-0.581,1.161,4.209,2.032,2.031,3.048c-0.58,0.29-3.773,0.726-3.773,1.451
@@ -385,7 +385,7 @@
 		l0.145,8.854L418.215,157.185z"/>
 </a>
 
-<a xlink:href="virginia.html">
+<a class = "virginia" xlink:href="">
 	<path id="VA" fill="#288585" onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');"
 		 d="M968.287,154.572c-42.525,0-85.051,0-127.431,0c-21.045,0-42.09,0-63.135,0
 		c-13.644,0-27.286-1.451-40.93-2.467l0,0l0,0c-26.851-0.436-53.846-0.726-80.696-1.161c4.935-2.177,11.176-5.806,16.4-5.806
@@ -443,7 +443,7 @@
 		C985.123,78.229,985.123,78.52,984.979,78.955C984.107,80.987,985.123,78.52,984.979,78.955z"/>
 </a>
 
-<a xlink:href="kentucky.html">
+<a class="kentucky" xlink:href="">
 	<path id="KY" onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');" fill="#288585" stroke="#FFFFFF" stroke-width="0.9" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3.0623,6.1246" d="
 		M476.125,89.55c1.016,1.597-0.871,2.468-2.032,3.338c-1.887,1.306-2.758,2.322-3.193,4.645c-0.435,2.322,4.79,7.837,3.483,8.708
 		c-1.016,0.726-2.612,1.016-3.918,1.307c-1.307,0.145-4.209-0.581-5.08,0c-2.322,1.306-2.032,3.773-5.225,4.063
@@ -483,7 +483,7 @@
 </a>
 
 
-<a xlink:href="south-carolina.html">
+<a class="scarolina" xlink:href="">
 		<path onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');" fill="#288585" d="
 		M768.868,395.501c5.225-2.612,4.063-6.967,3.919-11.901c0-0.871,0.29-11.03,0.726-10.886c2.031,0.871,1.016,5.806,2.467,7.402
 		c2.032,2.467,2.322-6.821,2.468-7.692c0.726-2.322,3.628-3.338,6.096-3.629c1.597-0.145,2.758,2.322,2.612,3.629
@@ -840,7 +840,7 @@
 </a>
 
 
-<a xlink:href="florida.html">
+<a class-"florida" xlink:href="">
 		<path onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');" fill="#288585" d="
 		M803.266,679.391c0.146,1.887,0.146,3.919,0.146,5.95c0,5.806,0,11.757-0.146,17.562c0,2.178-1.597,3.193-1.742,5.226
 		c-0.145,1.597-1.16,7.257,0.291,8.272c-1.161,1.887-1.161,2.903-1.017,5.226c0,0.87,0.146,7.111-0.145,7.111
@@ -1518,7 +1518,7 @@
 </a>
 
 
-<a xlink:href="louisiana.html">
+<a class="louisiana" xlink:href="">
 		<path onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');" fill="#288585" d="
 		M229.826,344.848v54.572c2.177,0.87,3.048,2.757,4.645,4.354c2.032,2.032,3.193,4.064,3.919,6.677
 		c0.581,2.467,0.145,5.079,0.29,7.547c0.291,3.338,2.177,5.951,3.919,8.708c0.726,1.161,2.032,2.322,2.177,3.629
@@ -2311,7 +2311,7 @@
 	c-0.145,3.338-2.322,2.467-4.644,3.628c-1.597,0.726,1.741,2.613,2.032,3.048c0.581,1.597-0.871,2.322-1.597,3.339H346.081z"/>
 	<a/>
 
-<a xlink:href="north-carolina.html">
+<a class="nCarolina" xlink:href="">
 	<path id="NC" onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');" fill="#288585" stroke="#FFFFFF" stroke-miterlimit="10" stroke-dasharray="3.0623,6.1246" d="
 		M865.675,298.839l-45.863-50.363l-46.734-1.306c0.29-2.322,0.58-4.935,0-7.112c-0.726-2.758-3.629-5.08-4.79-7.692
 		c-1.016-2.177-3.628,2.903-5.37,1.742c-0.726-0.436-0.58-1.742-0.726-2.467c-0.145-1.161-1.597-1.742-2.322-2.758
@@ -2364,7 +2364,7 @@
 		c-2.032-1.161-2.758,0.726-4.354,2.032C867.707,298.258,866.981,297.678,865.675,298.839L865.675,298.839z"/>
 </a>
 
-<a xlink:href="alabama.html">
+<a class="alabama" xlink:href="">
 	<path id="AL" onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');" fill="#288585" stroke="#FFFFFF" stroke-width="0.9" stroke-miterlimit="10" stroke-dasharray="3.0623,6.1246" d="
 		M457.111,407.257l15.82-159.216c-1.016-3.483-1.741-6.966-3.773-10.014c35.269,0,70.682,0.145,105.95,0.145
 		c3.193,19.594,6.241,39.187,9.435,58.781c2.177,13.353,4.209,26.851,6.386,40.203c0.726,4.354,1.451,8.708,2.032,13.062
