@@ -2,42 +2,33 @@
 <html class="no-js">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="South-central Partnership for Energy Efficiency as a Resource regional interactive map">
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-  <title>SPEER</title>
+  <title>National Builders Code</title>
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 
-  <!-- build:css styles/vendor.css -->
-  <!-- bower:css -->
-  <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
-  <!-- endbower -->
-  <!-- endbuild -->
+  <link rel="stylesheet" href="styles/vendor.css">
 
-  <!-- build:css styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
-  <!-- endbuild -->
 
-  <!-- build:js scripts/vendor/modernizr.js -->
-  <script src="../bower_components/modernizr/modernizr.js"></script>
-  <!-- endbuild -->
+  <script src="scripts/vendor/modernizr.js"></script>
 </head>
 <body>
   <header class="wrapper" role="header">
     <nav class="mainNav" role="navigation">
-      <div class="navLinks" role="link">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="southcentral.html">South Central</a></li>
-          <li><a href="northeast.html">Northeast</a></li>
-          <li><a href="southeast.html">Southeast</a></li>
-          <li><a href="midwest.html">Midwest</a></li>
-          <li><a href="natBuilders.html">National</a></li>
-          <li><a href="southwest.html">southwest</a></li>
-          <li><a href="northwest.html">northwest</a></li>
-          <li><a href="california.html">california</a></li>
-          <li><a href="west-virginia.html">West Virginia</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="southcentral.html">South Central</a></li>
+        <li><a href="northeast.html">Northeast</a></li>
+        <li><a href="southeast.html">Southeast</a></li>
+        <li><a href="midwest.html">Midwest</a></li>
+        <li><a href="natBuilders.html">National</a></li>
+        <li><a href="southwest.html">southwest</a></li>
+        <li><a href="northwest.html">northwest</a></li>
+        <li><a href="california.html">california</a></li>
+        <li><a href="west-virginia.html">West Virginia</a></li>
+      </ul>
         <hr>
 
         <title>Success With Energy Code</title>
@@ -58,63 +49,49 @@
     </ul>
   </div>
 
+  <!-- Code Book Display Section -->
 
-  <!-- Map Section -->
+  <section class="books">
 
-  <section>
-    <h3>South Central Partnership for Energy <br>efficiency as a resource</h3>
+    <h3 class="builder">Select a Year to access National Resources</h3>
 
-    <div class="regionLogoSC">
-      <a href="http://eepartnership.org/" target="_blank"><img src="images/speer_logo.png" alt="South Central Partnership for Energy Eefficiency as a Resource logo"></a>
-    </div>
+    <a href="natiecc09.html">
+      <div class="book1static">
+        <img src="images/2009CodeOfficials.png" alt="2009 Builders Code book cover">
+      </div>
+    </a>
 
-    <div id="stageSC" class="southcentralMap"></div>
+
+      <div class="book2">
+        <img src="images/2012CodeOfficials.png" alt="2012 Officals Code book cover">
+      </div>
+
 
   </section>
 
+  <!-- National Builders Resources -->
 
-  <!-- State Builders Resources -->
-
-  <section class="hideresources">
-    <section class="statetitle">
-      <h3>National Resources</h3>
-      <p>Click on each trade below to download a PDF</p>
-    </section>
-
-    <article>
-      <div class="resourceLinks">
-        <img src="/images/techtip_icon2.png" alt="Builders Techtip icon">
-        <p>Tech Tips</p>
-        <ul>
-          <a href="#"><li>Foundation</li></a>
-          <a href="#"><li>FRAMING</li></a>
-          <a href="#"><li>HVAC INSTALLATION</li></a>
-          <a href="#"><li>ELECTRICAL</li></a>
-          <a href="#"><li>AIR SEALING</li></a>
-          <a href="#"><li>INSULATION</li></a>
-        </ul>
-      </div>
-    </article>
+  <section class="resourceslinks">
+    <h3>2009 IECC for builders and trades</h3>
+    <p><a href="natBuilders.html">Click on each trade to download a PDF.</a></p>
 
     <!-- National Code Offical's Resources -->
 
-    <article>
+    <article class="ieccResource">
       <div class="resourceLinks">
         <img src="/images/icon_checklist.png" alt="Checklist icon">
         <p>Checklist</p>
         <ul>
-          <a href="#"><li>Foundation</li></a>
-          <a href="#"><li>FRAMING</li></a>
-          <a href="#"><li>HVAC INSTALLATION</li></a>
-          <a href="#"><li>ELECTRICAL</li></a>
-          <a href="#"><li>AIR SEALING</li></a>
-          <a href="#"><li>INSULATION</li></a>
+          <li><a href="#">Plan review</a></li>
+          <li><a href="#">Pre-rough-in</a></li>
+          <li><a href="#">rough-in</a></li>
+          <li><a href="#">pre-final</a></li>
+          <li><a href="#">final</a></li>
         </ul>
       </div>
     </article>
-
     <div class="adobeLink">
-      <p><a href="http://get.adobe.com/reader/" target="_blank">Adobe Reader is required to use the PDF resources on this site. Download here.</a></p>
+      <p><a href="http://get.adobe.com/reader/">Adobe Reader is required to use the PDF resources on this site. Download here.</a></p>
     </div>
 
   </section>
@@ -124,9 +101,11 @@
 
     <img src="images/mimeo_icon.png" alt="Mimeo icon">
 
-    <p><a href="https://marketplace.mimeo.com/AdvancedEnergy#name=13" target="_blank">Click here to order any of our full guides in our marketplace.</a></p>
+    <p><a href="#">Click here to order any of our full guides in our marketplace.</a></p>
 
   </section>
+
+  <!-- Footer Section -->
 
 
   <footer>
@@ -163,15 +142,8 @@
 
   </footer>
 
-      <!-- build:js scripts/vendor.js -->
-      <!-- bower:js -->
-      <script src="../bower_components/jquery/dist/jquery.js"></script>
-      <script src="../bower_components/underscore/underscore.js"></script>
-      <!-- endbower -->
-      <!-- endbuild -->
+      <script src="scripts/vendor.js"></script>
 
-      <!-- build:js scripts/main.js -->
       <script src="scripts/main.js"></script>
-      <!-- endbuild -->
     </body>
     </html>

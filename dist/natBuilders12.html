@@ -2,25 +2,17 @@
 <html class="no-js">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="South-central Partnership for Energy Efficiency as a Resource regional interactive map">
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-  <title>SPEER</title>
+  <title>National Builders Code</title>
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 
-  <!-- build:css styles/vendor.css -->
-  <!-- bower:css -->
-  <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
-  <!-- endbower -->
-  <!-- endbuild -->
+  <link rel="stylesheet" href="styles/vendor.css">
 
-  <!-- build:css styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
-  <!-- endbuild -->
 
-  <!-- build:js scripts/vendor/modernizr.js -->
-  <script src="../bower_components/modernizr/modernizr.js"></script>
-  <!-- endbuild -->
+  <script src="scripts/vendor/modernizr.js"></script>
 </head>
 <body>
   <header class="wrapper" role="header">
@@ -58,40 +50,46 @@
     </ul>
   </div>
 
+  <!-- Code Book Display Section -->
+  <section class="books">
+    <h3 class="builder">Select a Year to access national Resources</h3>
 
-  <!-- Map Section -->
+    <a href="natBuilders09.html"
+    <div class="book1static">
 
-  <section>
-    <h3>South Central Partnership for Energy <br>efficiency as a resource</h3>
+      <img src="/images/2009_codeOff_Book_down.jpg" onmouseover="this.src='/images/2009_codeOff_Book_over.jpg'"
+      onmouseout="this.src='/images/2009_codeOff_Book_down.jpg'"  alt="2009 Code Officials book cover">
 
-    <div class="regionLogoSC">
-      <a href="http://eepartnership.org/" target="_blank"><img src="images/speer_logo.png" alt="South Central Partnership for Energy Eefficiency as a Resource logo"></a>
     </div>
+    </a>
 
-    <div id="stageSC" class="southcentralMap"></div>
+    <div class="book2static">
+
+      <img src="/images/2012_codeOff_Book_over.jpg" alt="2012 Code Officials book cover">
+
+    </div>
 
   </section>
 
+  <section>
+    <h3>2012 IECC for builders and trades</h3>
+    <p>Click on each trade to download a PDF.</p>
+  </section>
 
-  <!-- State Builders Resources -->
+  <!-- National Builders Resources -->
 
-  <section class="hideresources">
-    <section class="statetitle">
-      <h3>National Resources</h3>
-      <p>Click on each trade below to download a PDF</p>
-    </section>
-
+  <section>
     <article>
       <div class="resourceLinks">
         <img src="/images/techtip_icon2.png" alt="Builders Techtip icon">
         <p>Tech Tips</p>
         <ul>
-          <a href="#"><li>Foundation</li></a>
-          <a href="#"><li>FRAMING</li></a>
-          <a href="#"><li>HVAC INSTALLATION</li></a>
-          <a href="#"><li>ELECTRICAL</li></a>
-          <a href="#"><li>AIR SEALING</li></a>
-          <a href="#"><li>INSULATION</li></a>
+          <li><a href="#">Foundation</a></li>
+          <li><a href="#">FRAMING</a></li>
+          <li><a href="#">HVAC INSTALLATION</a></li>
+          <li><a href="#">ELECTRICAL</a></li>
+          <li><a href="#">AIR SEALING</a></li>
+          <li><a href="#">INSULATION</a></li>
         </ul>
       </div>
     </article>
@@ -103,12 +101,12 @@
         <img src="/images/icon_checklist.png" alt="Checklist icon">
         <p>Checklist</p>
         <ul>
-          <a href="#"><li>Foundation</li></a>
-          <a href="#"><li>FRAMING</li></a>
-          <a href="#"><li>HVAC INSTALLATION</li></a>
-          <a href="#"><li>ELECTRICAL</li></a>
-          <a href="#"><li>AIR SEALING</li></a>
-          <a href="#"><li>INSULATION</li></a>
+          <li><a href="#">Foundation</a></li>
+          <li><a href="#">FRAMING</a></li>
+          <li><a href="#">HVAC INSTALLATION</a></li>
+          <li><a href="#">ELECTRICAL</a></li>
+          <li><a href="#">AIR SEALING</a></li>
+          <li><a href="#">INSULATION</a></li>
         </ul>
       </div>
     </article>
@@ -163,15 +161,8 @@
 
   </footer>
 
-      <!-- build:js scripts/vendor.js -->
-      <!-- bower:js -->
-      <script src="../bower_components/jquery/dist/jquery.js"></script>
-      <script src="../bower_components/underscore/underscore.js"></script>
-      <!-- endbower -->
-      <!-- endbuild -->
+      <script src="scripts/vendor.js"></script>
 
-      <!-- build:js scripts/main.js -->
       <script src="scripts/main.js"></script>
-      <!-- endbuild -->
     </body>
     </html>

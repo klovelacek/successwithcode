@@ -16,6 +16,16 @@
 //   });
 
 
+// -------------------------------
+
+// var $reveal= $('#OK'),
+//     $resource = $('#resource'),
+//     visible = true;
+
+
+
+
+
 
 // Place SVG maps in HTML pages
 
@@ -31,6 +41,12 @@ $(function(){
     }
   });
 });
+
+
+// $("svg").removeClass(function(){
+//   return $(this).prev().attr("regLogo");
+// });
+
 
 // ================= NEEP ======================
 
@@ -57,6 +73,7 @@ $(function(){
     }
   });
 });
+
 
 // ============= MEEA =====================
 

@@ -1,5 +1,6 @@
 //== Main Header =====================
 
+
 body {
   margin:0;
 }
@@ -41,12 +42,12 @@ body {
   color: $checklist-green;
 }
 
-.navLinks ul li a:hover {
-  color: $checklist-green;
-}
-
 .mainNav ul li a:visited {
   color: white;
+}
+
+.navLinks ul li a:hover {
+  color: $checklist-green;
 }
 
 .mainNav hr {
@@ -73,7 +74,9 @@ title {
     }
 }
 
+
 //======= Social Icons =================
+
 
 .social {
   @include outer-container;
@@ -93,7 +96,9 @@ title {
 }
 
 
+
 //==== Map Section ====================
+
 
 section {
   @include outer-container;
@@ -110,11 +115,18 @@ section {
   margin-top: -12px;
 }
 
-svg {
-  transition-duration: 6s;
+.nationalMap:hover {
+  -webkit-transition: all 4.7s;
+  -moz-transition: all 4.7s;
+  -o-transition: all 4.7s;
+  -ms-transition: all 4.7s;
+  transition: all 4.7s;
 }
 
+
 //==== Book Section ====================
+
+
 
 .nationalRes {
   text-align: center;
@@ -130,46 +142,28 @@ section.books {
   text-align: center;
   margin-top: 4em;
   max-width: 82em;
-  height: 39em;
+  height: 33.5em;
 }
 
-.book1:hover img {
-  width: 33em;
-  transition: width .25s ease-in-out;
-}
-
-.book2:hover img {
-  width: 32em;
-  transition: width .25s ease-in-out;
-}
-
-
-.book1, .book1static, {
+.book1static {
   @include span-columns(5);
   text-align: right;
-  width: 47.5%;
-
-  img {
-    width: 32em;
-  }
+  width: 45%;
 }
 
-.book2, .book2static {
+
+.book2static {
   @include span-columns(5);
   text-align: left;
   width: 45%;
-
-  img {
-    width: 30.2em;
-  }
 }
 
-
-.book1, .book2, .book1static, .book2static {
-  margin-top: .5em;
+.book1static, .book2static {
+  margin-top: .125em;
   margin-bottom: 2em;
-  margin-left: 22px;
+  margin-left: 45px;
 }
+
 
 //==== Resources Section ==============
 
@@ -180,6 +174,17 @@ section.books {
 
 .resourcesHide {
   display: none;
+}
+
+.pendingRes {
+  @include outer-container;
+  text-align: center;
+  font-family: "ProximaNova Semibold", Helvetica, sans-serif;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  color: $map-green;
+  margin-bottom: 5em;
+  margin-top: 3em !important;
 }
 
 .resourceLinks p {
@@ -249,15 +254,24 @@ article {
   margin-top: 7px;
 }
 
+.memeo {
+  margin-top: 4em;
+}
+
+
 // ======== Code Books ============
 
 
 
 //==== Footer ==================
 
+.footerNav {
+  @include outer-container;
+  max-width: 68em;
+}
+
 .footerNav ul {
   list-style-type: none;
-  @include outer-container;
   margin-top: 3.5em;
   text-align: center;
 
@@ -272,23 +286,23 @@ article {
 }
 
 footer hr {
-  width: 80%;
+  width: 100%;
   border-color: $orange;
-}
-
-.footerNav ul li a:hover {
-  color: $orange;
 }
 
 .footerNav ul li a:visited {
   color: black;
 }
 
+.footerNav ul li a:hover {
+  color: $orange;
+}
+
 div.logos {
-  @include span-columns(8);
-  @include shift(2);
+  @include outer-container;
   text-align: center;
   margin-bottom: 30px;
+  padding-left: .021em;
 }
 
 .logos ul {
@@ -296,8 +310,11 @@ div.logos {
   @include omega(4n);
     li {
       display: inline;
-      margin-right: 6%;
   }
+}
+
+.logos ul a  {
+  margin-right: 6.5%;
 }
 
 .copyright {
@@ -305,23 +322,23 @@ div.logos {
   font-family: "ProximaNova Regular", Helvetica, sans-serif;
   font-size: .8em;
   text-align: center;
-  padding-top: 148px;
   line-height: 18px;
   width: 60%;
   height: 40px;
   margin-bottom: 40px;
-    a:hover {
-        color: $orange;
-  }
 }
 
-.copyright {
-  a:visited {
+.copyright a:visited {
     color: black;
-  }
 }
 
-/* 
+.copyright a:hover {
+  color: $orange;
+}
+
+
+
+/*
 
 div.hidelogo1, div.hidelogo2, div.hidelogo3,
 div.hidelogo4, div.hidelogo5, div.hidelogo6, {

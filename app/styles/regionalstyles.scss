@@ -2,7 +2,7 @@
 
 .northeastMapNE {
   @include span-columns(6);
-  width: 48%;
+  width: 46%;
 }
 
 .regionLogoNE {
@@ -13,7 +13,7 @@
   margin-right: 0;
 
     img {
-      width: 5.5em;
+      width: 6em;
   }
 }
 
@@ -50,7 +50,7 @@
 
 .southcentralMap {
   @include span-columns(5);
-  width: 34%;
+  width: 31%;
 }
 
 .regionLogoSC {
@@ -59,7 +59,7 @@
   margin-right: 0;
   padding-left: 2em;
   img {
-    width: 10.6em;
+    width: 9.5em;
   }
 }
 
@@ -88,7 +88,7 @@
 .midwestMap {
   @include span-columns(5);
   margin-left: 1.8em;
-  width: 56%;
+  width: 58%;
 }
 
 
@@ -96,7 +96,7 @@
 
 .southwestMap {
   @include span-columns(6);
-  width: 48%;
+  width: 41.75%;
 }
 
 .regionLogoSW {
@@ -106,7 +106,7 @@
   margin-right: 1em;
 
   img {
-    width: 7.5em;
+    width: 8.5em;
   }
 }
 
@@ -124,7 +124,7 @@
   margin-right: 3em;
 
   img {
-    width: 9.5em;
+    width: 10.5em;
   }
 }
 
@@ -146,4 +146,15 @@
 .californiaMap {
   @include outer-container;
   width: 26%;
+}
+
+.pendingRes {
+  margin-top: 5em;
+  letter-spacing: 1px;
+}
+
+// ====== National ============
+
+svg .regLogo {
+  display: none;
 }
