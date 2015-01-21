@@ -1,8 +1,11 @@
-  // ===== Northeast ===========
+
+// ===== Northeast ===========
 
 .northeastMapNE {
   @include span-columns(6);
+
   width: 41%;
+
 }
 
 .regionLogoNE {
