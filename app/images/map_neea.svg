@@ -1,8 +1,13 @@
 
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 429.643 190.507">
 
+	<style>
+		path:hover {
+		transition-duration: .56s;
+		}
+	</style>
 
-<a xlink:href="montana.html">
+<a xlink:href="#">
 <g id="MT_2_">
 	<path id="MT" fill="#288585"  onmouseover="evt.target.setAttribute('fill', '#fce149');"
 		 onmouseout="evt.target.setAttribute('fill', '#288585');"  d="M214.652,94.577c-0.352-0.587-3.64-1.644-3.522-2.231s0.705-2.113,0.705-2.113
@@ -75,7 +80,7 @@
 
 
 
-<a xlink:href="idaho.html">
+<a xlink:href="#">
 <g id="ID">
 	<path fill="#288585"  onmouseover="evt.target.setAttribute('fill', '#fce149');"
 		 onmouseout="evt.target.setAttribute('fill', '#288585');"  d="M156.648,127.806c-0.235-0.117-0.587-0.705-0.587-0.939c0-0.352,0-5.166,0-5.166s0.705-0.471,0.822-0.588
@@ -472,7 +477,7 @@
 
 
 
-<a xlink:href="oregon.html">
+<a xlink:href="#">
 <g id="OR_1_">
 	<path id="OR" fill="#288585"  onmouseover="evt.target.setAttribute('fill', '#fce149');"
 		 onmouseout="evt.target.setAttribute('fill', '#288585');"  d="M17.51,78.843c0.352-0.47-1.057-0.939-1.409-1.761c-0.353-0.705,0.352-0.705,0.939-1.409
@@ -546,7 +551,7 @@
 </a>
 
 
-<a xlink:href="washington.html">
+<a xlink:href="#">
 <g id="WA">
 	<path fill="#288585"  onmouseover="evt.target.setAttribute('fill', '#fce149');"
 		 onmouseout="evt.target.setAttribute('fill', '#288585');"  d="M18.097,74.381c-1.174-0.47-2.349-1.526-2.936-1.644c-0.47-0.235-0.47-1.174-0.117-1.762

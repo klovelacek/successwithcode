@@ -110,9 +110,10 @@ section {
 }
 
 .nationalMap {
-  width: 100%;
-  height: 579px;
-  margin-top: -12px;
+  width: 110%;
+  height: 649px;
+  margin-top: -54px;
+  margin-bottom: 75px;
 }
 
 .nationalMap:hover {
@@ -149,6 +150,7 @@ section.books {
   @include span-columns(5);
   text-align: right;
   width: 45%;
+
 }
 
 
@@ -164,6 +166,9 @@ section.books {
   margin-left: 45px;
 }
 
+.book1static:hover {
+  transition: opacity 0.2s 1 ease-in;
+}
 
 //==== Resources Section ==============
 

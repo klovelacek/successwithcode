@@ -2,6 +2,12 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 viewBox="0 0 551.8 410.562">
 
+	<style>
+		path:hover {
+		transition-duration: .56s;
+		}
+	</style>
+
 <g>
 	<a class="ohio" xlink:href="">
 		<path fill-rule="evenodd" clip-rule="evenodd" fill="#288585" onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');"
