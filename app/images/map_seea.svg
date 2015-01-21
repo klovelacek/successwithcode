@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
 	 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="204.862 1.161 789.26 798.693">
@@ -11,7 +10,7 @@
 
 <a class="georgia" xlink:href="">
 	<path id="GA" onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');"
-	 fill="#288585" stroke="#FFFFFF" stroke-width="0.9" stroke-miterlimit="10" stroke-dasharray="3.0623,6.1246"
+	 fill="#288585" stroke="#FFFFFF" stroke-width="0.9" stroke-miterlimit="10" stroke-dasharray="3.0623,6.1246" onclick=""
 	   d="M600.218,451.814c0.436,1.451,0.726,3.338,2.177,4.209c1.742,1.161,1.451,1.887,1.597,3.919c0,1.887,0,3.773,0.146,5.66
 		c0.145,1.161,2.031,1.451,2.902,1.741l106.241,8.128c0.29,1.161,2.902,4.935,2.758,5.37c-0.436,1.451-1.307,0.871-0.581,2.758
 		c0.436,1.306,1.307,2.177,2.612,2.758c6.241,2.757,2.322-7.983,5.661-8.709l-0.291-3.773c-1.597-1.741-1.306-7.111-0.145-9.144
@@ -47,10 +46,9 @@
 
 
 
-
 <a class= "arkansas" xlink:href="">
-		<path id="AK" onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');" fill="#288585" d="
-		M211.103,310.305c2.032-0.29,1.597,2.903,3.338,3.773c2.322,1.017,2.902,0,5.225-0.29c0.436,0,2.032,1.887,2.322,1.161
+		<path id="AK" onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');"
+			 fill="#288585" d="M211.103,310.305c2.032-0.29,1.597,2.903,3.338,3.773c2.322,1.017,2.902,0,5.225-0.29c0.436,0,2.032,1.887,2.322,1.161
 		c0.145-0.436,1.887-1.597,2.322-0.871c0.581,1.017,4.354,1.597,5.515,2.178v28.737l0,0h116.255l0,0l1.016-0.436
 		c0.581-0.871,1.597-1.307,1.597-2.612c0-1.597-2.758-2.178-2.467-3.483c0.435-1.597,3.918-0.436,4.644-2.178
 		c0.726-1.741-0.29-2.757,0.436-4.499c0.726-1.741-1.016-1.597-2.322-2.467c-0.871-0.581-0.29-3.629-0.29-4.5
@@ -373,8 +371,6 @@
 </a>
 
 
-
-
 <a class="tennessee" xlink:href="">
 	<path id="TN" onmouseover="evt.target.setAttribute('fill', '#fce149');" onmouseout="evt.target.setAttribute('fill', '#288585');" fill="#288585" stroke="#FFFFFF" stroke-width="0.9" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3.0623,6.1246" d="
 		M418.215,157.185c-0.146,0.145-0.146,0.29-0.146,0.29c-1.306,1.306-2.757-2.032-3.918-2.032c-0.727,0,1.451,7.692,1.016,8.563
@@ -398,8 +394,6 @@
 		c0.291-0.726,1.017-2.757,1.597-3.338c0.871-0.871,0.146-1.307-0.146-2.467c-0.29-1.306,0.871-3.048,1.017-4.354l-261.684-3.628
 		l0.145,8.854L418.215,157.185z"/>
 </a>
-
-
 
 
 <a class= "virginia" xlink:href="">
@@ -5307,5 +5301,5 @@
 			c-1.1,0.5,1.2,1.8,1.4,2.1c0.4,1.1-0.6,1.6-1.1,2.3L97.9,237.7z"/>
 		</a>
 	</g>
->>>>>>> master
+
 </svg>
