@@ -1,31 +1,3 @@
-// $(document).ready(function)(){
-//
-//   $('.bubblelogo').mouseover(function(){
-//
-//   div= $('bubblelogo');
-//
-//   div.stop().animate({visibility: visible}, 150);
-//
-//   }).mouseout(function(){
-//
-//
-//   div.stop().animate({visibility: hidden}), 150);
-//
-//   });
-//
-//   });
-
-
-// -------------------------------
-
-// var $reveal= $('#OK'),
-//     $resource = $('#resource'),
-//     visible = true;
-
-
-
-
-
 
 // Place SVG maps in HTML pages
 
@@ -33,7 +5,7 @@
 
 $(function(){
 
-  $("#stageNAT").load('images/map_national.svg', function(response){
+  $("#stageNAT").load('images/map_national2.svg', function(response){
     $(this).addClass("nationalMap");
 
     if(!response){
@@ -41,12 +13,6 @@ $(function(){
     }
   });
 });
-
-
-// $("svg").removeClass(function(){
-//   return $(this).prev().attr("regLogo");
-// });
-
 
 // ================= NEEP ======================
 

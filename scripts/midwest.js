@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 $(function(){
   $('.ohioInfo').hide();
 
@@ -154,4 +156,5 @@ $(function(){
       $(this).addClass('active').siblings('section').show();
     }
   });
+});
 });
