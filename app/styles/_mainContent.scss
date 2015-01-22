@@ -133,30 +133,30 @@ section {
 
 section.books {
   @include outer-container;
-  text-align: center;
   margin-top: 4em;
-  max-width: 82em;
+  max-width: 78em;
   height: 33.5em;
+  padding-left: 4.5%;
 }
 
 .book1static {
-  @include span-columns(5);
-  text-align: right;
+  margin-left: 3.6%;
   width: 45%;
 
 }
 
 
 .book2static {
-  @include span-columns(5);
-  text-align: left;
+float:left;
+margin-left: 4%;
   width: 45%;
+
 }
 
 .book1static, .book2static {
   margin-top: .125em;
   margin-bottom: 2em;
-  margin-left: 45px;
+  float: left;
 }
 
 .book1static:hover {
