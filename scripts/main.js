@@ -5,7 +5,7 @@
 
 $(function(){
 
-  $("#stageNAT").load('images/map_national2.svg', function(response){
+  $("#stageNAT").load('images/map_national3.svg', function(response){
     $(this).addClass("nationalMap");
 
     if(!response){
@@ -53,6 +53,18 @@ $(function(){
     }
   });
 });
+
+
+//<![CDATA[
+// function svgElementClicked(theElement)
+// {
+//   var s = document.getElementById("ohioInfo");
+//
+//   s.textContent = "A <" + theElement.nodeName + "> element with id '" + theElement.id + "' was clicked inside the <" +
+//   theElement.ownerDocument.defaultView.frameElement.nodeName.toLowerCase() + "> element.";
+// }
+//]]>
+
 
 // ======== SPEER ========================
 
